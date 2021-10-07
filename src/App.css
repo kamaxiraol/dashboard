@@ -1,0 +1,30 @@
+.card{
+  width: 16rem;
+  height: 9rem;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin:10px;
+}
+.card-body{
+  padding: 10px;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.main_card{
+  display: inline-grid;
+  grid-auto-flow: column;
+}
+.form-control{
+  width:100%;
+}
+
+.draft{
+  display: flex;
+  flex-direction: column;
+}
